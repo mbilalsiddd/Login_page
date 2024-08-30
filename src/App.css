@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #deb887;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 400px; /* Increased the minimum height for the container */
+}
+
+.signup-form {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically centers the content */
+  min-height: 400px; /* Ensures the form takes up more vertical space */
+}
+
+.signup-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #a06ede;
+  border-radius: 4px;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.signup-button:hover {
+  background-color: #0056b3;
+}
+
+.right-panel {
+  flex: 1;
+  background-color: #8b0000;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically centers the content */
+  min-height: 400px; /* Ensures the right panel takes up more vertical space */
+}
+
+.right-panel h2 {
+  margin-bottom: 20px;
+}
+
+.right-panel p {
+  margin-bottom: 20px;
+}
+
+.right-panel img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
